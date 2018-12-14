@@ -46,11 +46,12 @@ public class Runner {
     /**
      * Checks that the movement chosen is within the valid game map.
      * @param move the move chosen
-     * @param p person moving
+     * @param p 
+     moving
      * @param map the 2D array of rooms
      * @return
      */
-    public static boolean validMove(String move, Person p, Room[][] map)
+    public static boolean validMove(String move, BareBones p, Room[][] map)
     {
         move = move.toLowerCase().trim();
         switch (move) {
